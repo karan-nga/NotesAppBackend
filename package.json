@@ -4,9 +4,9 @@
   "description": "Notes Api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
-  },
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+},
   "keywords": [],
   "author": "karan",
   "license": "ISC",

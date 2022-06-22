@@ -1,10 +1,10 @@
 const express=require("express");
 const app=express(); 
-const quotes=require("./quotes.json");
-const noteRouter = require("./routes/noteRoutes");
-const userRouter = require("./routes/userRoutes");
+const quotes=require("./src/quotes.json");
+const noteRouter = require("./src/routes/noteRoutes");
+const userRouter = require("./src/routes/userRoutes");
 const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, './.env') });
+require('dotenv').config({ path: path.resolve(__dirname, './src/.env') });
 const mongoose =require("mongoose")
 const cors=require("cors")
 const port=process.env.PORT || 8080;
