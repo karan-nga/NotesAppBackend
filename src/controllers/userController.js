@@ -1,7 +1,7 @@
 const userModel=require("../models/user");
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
-const SECRET_KEY=process.env.SECRET_KEY; 
+const SECRET_KEY=process.env.SECRET_KEY;
 const signup= async(req,res) => { //register
 
      //Check For user if aleardy registered
